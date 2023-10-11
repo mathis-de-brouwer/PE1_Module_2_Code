@@ -3,8 +3,8 @@ import * as readline from 'node:readline/promises';
 import{stdin as input, stdout as output} from 'node:process';
 const userInput = readline.createInterface({input, output});
 //
-//h2
 
+//h2
 let jaar = parseFloat(await userInput.question('jaartal: '));
 
 if(jaar %4 == 0 || jaar %400 == 0){

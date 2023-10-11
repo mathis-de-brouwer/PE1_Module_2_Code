@@ -5,3 +5,4 @@ if(leeftijd < 18){
 }else{
     console.log('Welkom op onze webshop waar je enkel en alleen ventilatoren kan kopen.');
 }
+
